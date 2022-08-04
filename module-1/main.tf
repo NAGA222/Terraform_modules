@@ -23,7 +23,7 @@ resource "aws_instance" "ec2_server-1" {
 }
 
 resource "aws_security_group" "main1" {
-  name        = "EC2-webserver-SG-1"
+  name        = "EC2-webserver-SG-1" 
   description = "Webserver for EC2 Instances"
 
   ingress {
